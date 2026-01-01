@@ -20,7 +20,7 @@
 *.out
 *.run.xml
 *.snm
-*.synctex.gz
-*.synctex.gz(busy)
+*.synctex*
+*.synctex*(busy)
 *.tdo
 *.toc
