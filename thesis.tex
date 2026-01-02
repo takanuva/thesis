@@ -87,9 +87,6 @@
 % Mainmatter
 %*******************************************************
 \begin{comment}
-\cleardoublepage
-\pagestyle{scrheadings}
-\pagenumbering{arabic}
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
 \cleardoublepage
@@ -109,6 +106,10 @@ da. Le usate medical addresses pro, europa origine sanctificate nos se.}
 %\include{multiToC} % <--- just debug stuff, ignore for your documents
 \end{comment}
 
+\cleardoublepage
+\pagestyle{scrheadings}
+\pagenumbering{arabic}
+% TODO: keep page numbering?
 \include{src/main/chapter1}
 \include{src/main/chapter2}
 \include{src/main/chapter3}
